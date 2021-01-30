@@ -22,6 +22,7 @@
 html {
   font-size: 16em;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -209,13 +210,14 @@ main .products-container {
 main .products-container::before {
   content: '';
   position: absolute;
-  height: 120%;
+  height: 150%;
   width: 100vw;
   background-image: url(./backgrounds/bg2-medium.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 0.1;
+  z-index: -99;
 }
 main .coffee-container .left ul.intensity li.empty {
   background-color: #fff;
