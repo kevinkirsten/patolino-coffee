@@ -210,7 +210,7 @@ main .products-container {
 main .products-container::before {
   content: '';
   position: absolute;
-  height: 150%;
+  height: 140%;
   width: 100vw;
   background-image: url(./backgrounds/bg2-medium.jpg);
   background-repeat: no-repeat;
