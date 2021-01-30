@@ -10,6 +10,6 @@ This project was created as part of one of the deliverables to participate in th
 
 ### Resources I used
 
--   Background images from [Unsplash collection](https://unsplash.com/collections/39370421/coffe-shop-backgrounds)
--   My initial design on [Figma](https://www.figma.com/file/qTwhiXFyKg0GM3zDgCCvVm/Poli-J%C3%BAnior-Summer-2021?node-id=0%3A1)
--   Icons made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com)
+-   Background images from [Unsplash collection](https://unsplash.com/collections/39370421/coffe-shop-backgrounds).
+-   My initial design on [Figma](https://www.figma.com/file/qTwhiXFyKg0GM3zDgCCvVm/Poli-J%C3%BAnior-Summer-2021?node-id=0%3A1).
+-   Icons made by [Freepik](https://www.freepik.com) from [Flaticon](https://www.flaticon.com).
