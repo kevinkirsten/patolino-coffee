@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/coffe.svg" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Patolino Coffe Shop</title>
+  </head>
+  <body>
+    <header>
+      <nav id="header">
+        <img
+          class="logo"
+          src="./assets/logo.png"
+          alt="Patolino Coffe Shop logo"
+        />
+        <ul class="nav-links">
+          <li class="home"><a href="#">Ínício</a></li>
+          <li class="about"><a href="#about-link">Sobre</a></li>
+          <li class="contact"><a href="#contact-link">Contato</a></li>
+          <li class="products">
+            <a href="products/products.html">Produtos</a>
+          </li>
+          <li class="blog"><a href="#">Blog</a></li>
+          <li class="my-area">
+            <a href="#"
+              ><button><i class="fas fa-user"></i>Minha Área</button></a
+            >
+          </li>
+          <li class="cart">
+            <a href="#"
+              ><button><i class="fas fa-shopping-cart"></i>Carrinho</button></a
+            >
+          </li>
+        </ul>
+
+        <div class="burguer">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="intro">
+        <img
+          class="logo"
+          id="intro"
+          src="./assets/logo-white.png"
+          alt="Patolino Coffe Shop logo"
+        />
+
+        <div class="content">
+          <div class="line"></div>
+          <h2>Café é sempre uma boa ideia</h2>
+          <div class="line"></div>
+          <h3>Conheça nossos produtos</h3>
+        </div>
+      </div>
+
+      <div class="info">
+        <div class="left">
+          <img src="./assets/capsules.webp" alt="Cápsulas de café" />
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
+            provident quo excepturi aperiam nihil eius facilis quod et sequi,
+            eos aliquam doloremque voluptate illum mollitia officia suscipit
+            dolore! Ut doloremque libero sed maiores temporibus neque delectus
+            enim ea porro rerum.!
+          </p>
+        </div>
+        <div class="right">
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad
+            provident quo excepturi aperiam nihil eius facilis quod et sequi,
+            eos aliquam doloremque voluptate illum mollitia officia suscipit
+            dolore! Ut doloremque libero sed maiores temporibus neque delectus
+            enim ea porro rerum.
+          </p>
+          <img
+            src="./assets/cup with capsules.png"
+            alt="Copo de café e cápsulas de café"
+          />
+        </div>
+      </div>
+
+      <div id="about-link"></div>
+
+      <div class="about" id="about">
+        <div class="title">
+          <div class="line"></div>
+
+          <h2>Sobre</h2>
+          <div class="line"></div>
+        </div>
+        <div class="text">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+            accusantium molestiae fuga deleniti doloremque quaerat culpa et
+            nihil, accusamus deserunt expedita ducimus voluptate odit cumque
+            quae
+          </p>
+          <br />
+          <p>
+            voluptatum ullam nobis id at beatae neque tenetur perferendis?
+            Asperiores sint, perferendis numquam eum eveniet pariatur explicabo,
+            nisi at, illo molestiae quia? Aliquid cumque et delectus assumenda
+            hic aspernatur repellendus inventore sit ad animi.
+          </p>
+          <br />
+          <img src="./backgrounds/coffee-medium.jpg" alt="Xícara de Café" />
+          <p>
+            voluptatum ullam nobis id at beatae neque tenetur perferendis?
+            Asperiores sint, perferendis numquam eum eveniet pariatur explicabo,
+            nisi at, illo molestiae quia? Aliquid cumque et delectus assumenda
+            hic aspernatur repellendus inventore sit ad animi.
+          </p>
+          <br />
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
+            assumenda delectus temporibus vitae quae nostrum voluptatibus
+            praesentium? Quod, vel. Sit laboriosam, officia natus itaque, vel
+            quidem dolorum, dignissimos excepturi modi tenetur aut.
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, maiores
+            hic? Inventore eos, porro accusantium obcaecati ipsam modi odio
+            dolorem sequi! Ut illum similique eius totam magni fugiat aliquid
+            nemo ad odit temporibus minima amet dolore dicta molestias, deleniti
+            aliquam?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, maiores
+            hic? Inventore eos, porro accusantium obcaecati ipsam modi odio
+            dolorem sequi! Ut illum similique eius totam magni fugiat aliquid
+            nemo ad odit temporibus minima amet dolore dicta molestias, deleniti
+            aliquam?
+          </p>
+        </div>
+      </div>
+
+      <div class="contact-container">
+        <h2 class="title" id="contact">
+          <div id="contact-link"></div>
+          Contato
+        </h2>
+
+        <form class="form-container" id="contact-form">
+          <div class="form-control simple">
+            <label for="name">Nome</label>
+            <input
+              type="text"
+              id="name"
+              placeholder="Digite seu nome aqui..."
+              required
+            />
+            <div class="line-sub"></div>
+          </div>
+
+          <div class="form-control simple">
+            <label for="name">Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="exemplo@email.com"
+              required
+            />
+            <div class="line-sub"></div>
+          </div>
+
+          <div class="form-control textarea">
+            <label for="textarea">Mensagem</label>
+            <div class="textarea-div">
+              <textarea
+                id="textarea"
+                placeholder="Escreva sua mensagem aqui..."
+                required
+              ></textarea>
+            </div>
+            <div class="line-sub"></div>
+          </div>
+
+          <div class="button-container">
+            <button class="btn" form="contact-form">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="social-media">
+          <h3>Acompanhe nas redes sociais</h3>
+          <ul class="links">
+            <li>
+              <a href="#"><i class="fab fa-facebook-f facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="small-container">
+          <ul class="links-left">
+            <li><a href="#">Política de Privacidade</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">Legal</a></li>
+          </ul>
+
+          <ul class="links-middle">
+            <li><a href="#">© 2021 Patolino Coffe Shop</a></li>
+          </ul>
+
+          <ul class="links-right">
+            <li>
+              <a
+                href="https://github.com/kevinkirsten"
+                class="kevin"
+                target="_blank"
+                >Feito com <i class="fas fa-heart"></i> por
+                <span class="kevin-name">Kevin</span>
+                !</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
