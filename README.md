@@ -1,6 +1,6 @@
 # :coffee: [Patolino Coffee](https://kevinkirsten.github.io/patolino-coffee/) Project
 
-This project was created as part of one of the deliverables to participate in the [Poli Júnior](https://polijunior.com.br/) summer internship 2021.
+This project was created as part of one of the tasks to participate in the [Poli Júnior](https://polijunior.com.br/) summer internship 2021.
 
 ### What I learned by building this site
 
