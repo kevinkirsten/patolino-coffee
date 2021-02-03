@@ -141,7 +141,7 @@ function showCoffees(coffees) {
               ${descricao}
             </p>
           </div>
-          <button id="Colômbia-add-cart" class="price">
+          <button id="${nome}-add-cart" class="price">
             R$ ${setPrice(preco)}<i class="fas fa-plus-circle"></i>
           </button>
         `
